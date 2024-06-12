@@ -27,4 +27,4 @@ print(youtube_video)
 add_like = input("type yes to add a like: ")
 
 if add_like.upper() == "YES":
-	youtube_video = likes(youtube_video)
+	youtube_video = like(youtube_video)
