@@ -5,12 +5,12 @@ def create_youtube_video(title, description):
 
 def like(video):
 	if "likes" in video.keys():
-		return video["likes"]+=1
+		video["likes"]+=1
 	return video
 
 def dislike(video):
 	if "dislikes" in video.keys():
-		return video["dislikes"]+=1
+		video["dislikes"]+=1
 	return video
 
 def add_comment(video, username, comment_text):
