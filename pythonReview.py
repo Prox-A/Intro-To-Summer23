@@ -14,7 +14,7 @@ def dislike(video):
 	return video
 
 def add_comment(video, username, comment_text):
-	return video["comments"][f"{username}"] = f"{comment_text}"
+	return video["comments"][username] = comment_text
 
 
 title = input("title of video: ")
